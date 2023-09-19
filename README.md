@@ -1,2 +1,2 @@
-# caio-portfolio
-Portfólio pessoal correspondente a pessoa dono do projeto.
+# Portfólio Pessoal
+Projeto portfólio pessoal que atua como ponte para outros projetos desenvolvidos, feito em Nuxt.js.
