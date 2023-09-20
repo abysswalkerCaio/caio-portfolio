@@ -1,8 +1,9 @@
 <template>
-  <div class="min-h-screen grid grid-rows-[60px_1fr_100px] grid-cols-1">
+  <div class="min-h-screen grid grid-rows-[55px_55px_1fr_100px] grid-cols-1">
     <Header></Header>
-    <div class="container max-w-full">
-      <slot></slot>
+    <Navbar></Navbar>
+    <div class="container sm:min-w-full md:min-w-full lg:min-w-full xl:min-w-full 2xl:min-w-full">
+      <NuxtPage></NuxtPage>
     </div>
     <Footer></Footer>
   </div>

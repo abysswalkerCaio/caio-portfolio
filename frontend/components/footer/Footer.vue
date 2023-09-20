@@ -1,5 +1,8 @@
 <template>
-  <div class="bg-indigo-950 text-white flex items-center pl-3">
-    <h1>Footer</h1>
+  <div class="bg-zinc-900 text-white flex items-center justify-center pl-3">
+    <section>
+      <p class="text-center">Caio Costa</p>
+      <p><a href="mailto:hcaio370@gmail.com">hcaio370@gmail.com</a></p>
+    </section>
   </div>
 </template>
