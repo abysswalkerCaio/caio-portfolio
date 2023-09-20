@@ -17,8 +17,8 @@
       </section>
     </div>
     <div class="bg-zinc-950 text-white">
-      <section id="skills">
-        <h1>Skills</h1>
+      <section id="projects">
+        <h1>Projects</h1>
       </section>
     </div>
     <div class="bg-zinc-800 text-white">

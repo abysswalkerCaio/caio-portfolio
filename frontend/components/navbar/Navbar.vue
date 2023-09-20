@@ -17,11 +17,11 @@
           <li>Career</li>
         </div>
       </a>
-      <a class="cursor-pointer h-full" href="#skills">
+      <a class="cursor-pointer h-full" href="#projects">
         <div
           class="h-full w-14 flex items-center justify-center border-b-4 border-transparent hover:border-emerald-500"
         >
-          <li>Skills</li>
+          <li>Projects</li>
         </div>
       </a>
     </nav>
