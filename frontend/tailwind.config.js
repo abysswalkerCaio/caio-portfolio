@@ -7,14 +7,15 @@ export default {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
     "./app.vue",
-    "./error.vue"
+    "./error.vue",
   ],
   theme: {
     extend: {
       fontFamily: {
-        'roboto': ['Roboto', 'sans-serif']
-      }
+        roboto: ["Roboto", "sans-serif"],
+        "roboto-mono": ["Roboto Mono", "monospace"],
+      },
     },
   },
   plugins: [],
-}
+};

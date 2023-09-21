@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen grid grid-rows-[55px_55px_1fr_100px] grid-cols-1">
+  <div class="min-h-screen grid grid-rows-[55px_55px_1fr_100px] grid-cols-1 font-roboto">
     <Header></Header>
     <Navbar></Navbar>
     <div
