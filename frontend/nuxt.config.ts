@@ -1,5 +1,27 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      charset: "utf-8",
+      viewport: "width=device-width, initial-scale=1",
+      title: "Caio Costa's Portfolio",
+      meta: [
+        {
+          name: "description",
+          content: "Caio Costa's portfolio.",
+        },
+        {
+          name: "keywords",
+          content:
+            "HTML, CSS, JavaScript, TypeScript, PHP, Vue.js, Nuxt.js, Tailwind CSS, Laravel, Fullstack, Developer, Portfolio",
+        },
+        {
+          name: "author",
+          content: "Caio Costa",
+        },
+      ],
+    },
+  },
   devtools: { enabled: true },
   css: [
     "~/assets/css/main.css",

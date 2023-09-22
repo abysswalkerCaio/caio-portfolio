@@ -13,7 +13,7 @@
         </p>
         <NuxtLink
           :to="'/'"
-          class="text-emerald-400 text-center border-2 border-emerald-500 hover:bg-emerald-950 rounded-xl p-3 w-32"
+          class="text-emerald-400 text-center border-2 border-emerald-400 transition ease-out hover:bg-emerald-950 rounded-xl p-3 w-32"
         >
           Go Home
         </NuxtLink>
