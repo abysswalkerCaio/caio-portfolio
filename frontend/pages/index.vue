@@ -7,10 +7,14 @@
       <div class="bg-zinc-950 text-white px-10 py-16">
         <section id="about" class="grid gap-5" v-for="aboutContent in about">
           <p class="font-roboto-mono text-emerald-400">Hi, my name is</p>
-          <h1 class="text-4xl sm:text-5xl font-roboto-mono font-black">
+          <h1
+            class="text-4xl sm:text-5xl md:text-6xl font-roboto-mono font-black"
+          >
             {{ aboutContent.name }}.
           </h1>
-          <h1 class="text-2xl sm:text-3xl font-roboto-mono font-extrabold opacity-80">
+          <h1
+            class="text-2xl sm:text-3xl md:text-4xl font-roboto-mono font-extrabold opacity-80"
+          >
             I create things for the web.
           </h1>
           <p class="font-roboto-mono opacity-50">{{ aboutContent.activity }}</p>

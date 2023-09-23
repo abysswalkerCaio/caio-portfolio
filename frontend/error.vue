@@ -7,7 +7,7 @@
       <div
         class="font-roboto flex flex-col gap-4 min-h-screen w-full items-center justify-center bg-zinc-950 px-4"
       >
-        <h1 class="text-6xl text-emerald-400">404</h1>
+        <h1 class="text-6xl font-black md:text-7xl text-emerald-400">404</h1>
         <p class="text-white opacity-50">
           {{ message }}
         </p>
