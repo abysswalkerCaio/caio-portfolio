@@ -5,7 +5,7 @@
     </Head>
     <div class="grid grid-cols-1 break-all">
       <div class="bg-zinc-950 text-white px-10 py-16">
-        <section id="about" class="grid gap-y-5" v-for="aboutContent in about">
+        <section id="about" class="grid gap-5" v-for="aboutContent in about">
           <p class="font-roboto-mono text-emerald-400">Hi, my name is</p>
           <h1 class="text-4xl font-roboto-mono font-black">
             {{ aboutContent.name }}.
@@ -46,15 +46,28 @@
           </div>
         </section>
       </div>
-      <div class="bg-zinc-950 text-white">
-        <section id="projects">
-          <h1>Projects</h1>
+      <div class="bg-zinc-950 px-10 py-16">
+        <section class="grid gap-8" id="projects">
+          <h1
+            class="text-center text-5xl text-white font-roboto-mono font-black"
+          >
+            Projects
+          </h1>
+          <div class="grid gap-8 justify-center">
+            <div class="text-center" v-for="projectContent in project">
+              <project-card
+                :name="projectContent.name"
+                :description="projectContent.description"
+                :status="projectContent.status"
+              />
+            </div>
+          </div>
         </section>
       </div>
       <div class="bg-zinc-800 text-white px-10 py-16">
         <section
           id="contact"
-          class="grid grid-rols-3 grid-cols-2 gap-14"
+          class="grid grid-rols-3 grid-cols-2 gap-8"
           v-for="contactContent in contact"
         >
           <h1
@@ -93,6 +106,8 @@
 </template>
 
 <script lang="ts">
+import ProjectCard from "~/components/project-card/ProjectCard.vue";
+
 export default {
   data() {
     return {
@@ -136,6 +151,14 @@ export default {
           ],
         },
       ],
+      project: [
+        {
+          name: "Anime World",
+          description:
+            "List of different animes with their respective characters categorized by their factions.",
+          status: "Coming soon...",
+        },
+      ],
       contact: [
         {
           phone: "+55 13 97411 2148",
@@ -143,6 +166,9 @@ export default {
         },
       ],
     };
+  },
+  components: {
+    ProjectCard,
   },
 };
 </script>

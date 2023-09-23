@@ -5,30 +5,26 @@
         <div
           class="h-full w-14 flex items-center justify-center border-b-4 rounded-b-sm border-transparent transition ease-in-out hover:border-emerald-400"
         >
-          About
-        </div>
+          About</div>
       </a>
       <a class="cursor-pointer h-full" href="#experience">
         <div
           class="h-full w-14 flex items-center justify-center border-b-4 rounded-b-sm border-transparent transition ease-in-out hover:border-emerald-400"
         >
-          Career
-        </div>
+          Career</div>
       </a>
       <a class="cursor-pointer h-full" href="#projects">
         <div
           class="h-full w-14 flex items-center justify-center border-b-4 rounded-b-sm border-transparent transition ease-in-out hover:border-emerald-400"
         >
-          Projects
-        </div>
+          Projects</div>
       </a>
     </div>
     <a class="cursor-pointer h-full" href="#contact">
       <div
         class="h-full w-14 flex items-center justify-center border-b-4 rounded-b-sm border-transparent opacity-70 transition ease-in-out hover:border-emerald-400"
       >
-        Contact
-      </div>
+        Contact</div>
     </a>
   </nav>
 </template>
