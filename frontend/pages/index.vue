@@ -53,7 +53,7 @@
           >
             Projects
           </h1>
-          <div class="grid gap-8 justify-center">
+          <div class="grid sm:grid-cols-2 gap-8 justify-center">
             <div class="text-center" v-for="projectContent in project">
               <project-card
                 :name="projectContent.name"

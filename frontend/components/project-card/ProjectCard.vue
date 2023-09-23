@@ -1,5 +1,5 @@
 <template>
-  <div class="inline-block w-4/5">
+  <div class="inline-block w-4/5 sm:5/6">
     <h1
       class="bg-emerald-400 rounded-t-md p-1 text-xl font-roboto-mono font-semibold"
     >
