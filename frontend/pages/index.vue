@@ -18,7 +18,9 @@
             I create things for the web.
           </h1>
           <p class="font-roboto-mono opacity-50">{{ aboutContent.activity }}</p>
-          <p class="opacity-60 lg:w-4/5 xl:w-[55%] 2xl:w-2/5">{{ aboutContent.description }}</p>
+          <p class="opacity-60 lg:w-4/5 xl:w-[55%] 2xl:w-2/5">
+            {{ aboutContent.description }}
+          </p>
         </section>
       </div>
       <div class="bg-zinc-800 text-white px-10 py-16">
@@ -57,7 +59,9 @@
           >
             Projects
           </h1>
-          <div class="grid sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8 justify-center">
+          <div
+            class="grid sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8 justify-center"
+          >
             <div class="text-center" v-for="projectContent in project">
               <project-card
                 :name="projectContent.name"
@@ -80,7 +84,9 @@
             Contacts
           </h1>
           <div class="flex flex-col items-center gap-5">
-            <h2 class="text-3xl lg:text-4xl font-roboto-mono font-extrabold opacity-80">
+            <h2
+              class="text-3xl lg:text-4xl font-roboto-mono font-extrabold opacity-80"
+            >
               Phone
             </h2>
             <font-awesome-icon
@@ -89,7 +95,9 @@
             />
           </div>
           <div class="flex flex-col items-center gap-5">
-            <h2 class="text-3xl lg:text-4xl font-roboto-mono font-extrabold opacity-80">
+            <h2
+              class="text-3xl lg:text-4xl font-roboto-mono font-extrabold opacity-80"
+            >
               Email
             </h2>
             <font-awesome-icon
@@ -156,36 +164,6 @@ export default {
         },
       ],
       project: [
-        {
-          name: "Anime World",
-          description:
-            "List of different animes with their respective characters categorized by their factions.",
-          status: "Coming soon...",
-        },
-        {
-          name: "Anime World",
-          description:
-            "List of different animes with their respective characters categorized by their factions.",
-          status: "Coming soon...",
-        },
-        {
-          name: "Anime World",
-          description:
-            "List of different animes with their respective characters categorized by their factions.",
-          status: "Coming soon...",
-        },
-        {
-          name: "Anime World",
-          description:
-            "List of different animes with their respective characters categorized by their factions.",
-          status: "Coming soon...",
-        },
-        {
-          name: "Anime World",
-          description:
-            "List of different animes with their respective characters categorized by their factions.",
-          status: "Coming soon...",
-        },
         {
           name: "Anime World",
           description:
