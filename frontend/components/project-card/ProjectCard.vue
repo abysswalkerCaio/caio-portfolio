@@ -8,7 +8,7 @@
     <div
       class="border-solid border-4 rounded-b-md border-emerald-400 bg-zinc-200"
     >
-      <div class="h-40 overflow-y-scroll">
+      <div class="h-40 overflow-y-scroll no-scrollbar">
         <p class="p-2 opacity-80 font-medium">
           {{ description }}
         </p>

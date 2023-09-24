@@ -57,7 +57,7 @@
           >
             Projects
           </h1>
-          <div class="grid sm:grid-cols-2 gap-8 justify-center">
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
             <div class="text-center" v-for="projectContent in project">
               <project-card
                 :name="projectContent.name"
@@ -80,16 +80,16 @@
             Contacts
           </h1>
           <div class="flex flex-col items-center gap-5">
-            <h2 class="text-3xl font-roboto-mono font-extrabold opacity-80">
+            <h2 class="text-3xl lg:text-4xl font-roboto-mono font-extrabold opacity-80">
               Phone
             </h2>
             <font-awesome-icon
-              class="text-3xl text-emerald-400"
+              class="text-3xl lg:text-4xl text-emerald-400"
               :icon="'fa-solid fa-mobile-screen'"
             />
           </div>
           <div class="flex flex-col items-center gap-5">
-            <h2 class="text-3xl font-roboto-mono font-extrabold opacity-80">
+            <h2 class="text-3xl lg:text-4xl font-roboto-mono font-extrabold opacity-80">
               Email
             </h2>
             <font-awesome-icon

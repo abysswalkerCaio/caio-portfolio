@@ -1,14 +1,14 @@
 <template>
   <div
-    class="min-h-screen grid grid-rows-[55px_55px_1fr_100px] grid-cols-1 font-roboto"
+    class="min-h-screen font-roboto grid grid-rows-[55px_55px_1fr_100px] lg:grid-rows-[1fr_100px] lg:grid-cols-[175px_1fr]"
   >
-    <Header></Header>
+    <Header class="lg:hidden"></Header>
     <Navbar></Navbar>
     <div
-      class="container sm:min-w-full md:min-w-full lg:min-w-full xl:min-w-full 2xl:min-w-full"
+      class="container sm:min-w-full md:min-w-full lg:min-w-full lg:row-start-1 lg:col-start-2 xl:min-w-full 2xl:min-w-full"
     >
       <NuxtPage></NuxtPage>
     </div>
-    <Footer></Footer>
+    <Footer class="lg:row-start-2 lg:col-span-2"></Footer>
   </div>
 </template>
