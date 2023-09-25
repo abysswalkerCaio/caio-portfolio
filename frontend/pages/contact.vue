@@ -16,13 +16,17 @@
         class="flex flex-col items-center justify-center w-full h-full gap-6 text-5xl sm:text-6xl lg:text-7xl 2xl:text-[80px] font-black"
       >
         <font-awesome-icon :icon="'mobile-screen'" class="text-emerald-400" />
-        <p class="text-3xl opacity-70">+55 13 97411 2148</p>
+        <p class="text-xl sm:text-2xl lg:text-3xl opacity-70">
+          +55 13 97411 2148
+        </p>
       </div>
       <div
         class="flex flex-col items-center justify-center w-full h-full gap-6 text-5xl sm:text-6xl lg:text-7xl 2xl:text-[80px] font-black"
       >
         <font-awesome-icon :icon="'envelope'" class="text-emerald-400" />
-        <p class="text-3xl opacity-70">hcaio370@gmail.com</p>
+        <p class="text-xl sm:text-2xl lg:text-3xl opacity-70">
+          hcaio370@gmail.com
+        </p>
       </div>
       <div
         class="flex flex-col items-center justify-center w-full h-full gap-6 text-5xl sm:text-6xl lg:text-7xl 2xl:text-[80px] font-black"
@@ -32,7 +36,7 @@
           class="text-emerald-400"
         />
         <a
-          class="text-3xl opacity-70"
+          class="text-xl sm:text-2xl lg:text-3xl opacity-70"
           href="https://github.com/abysswalkerCaio"
           target="_blank"
           >GitHub</a
@@ -46,7 +50,7 @@
           class="text-emerald-400"
         />
         <a
-          class="text-3xl opacity-70"
+          class="text-xl sm:text-2xl lg:text-3xl opacity-70"
           href="https://www.linkedin.com/in/caio-costa-383a3b227/"
           target="_blank"
           >LinkedIn</a
