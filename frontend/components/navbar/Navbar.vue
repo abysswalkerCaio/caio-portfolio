@@ -1,101 +1,74 @@
 <template>
   <nav
-    class="bg-zinc-900 lg:bg-black text-white flex items-center justify-between px-3 sticky top-0 lg:items-start lg:justify-center lg:px-0 z-10"
+    class="bg-zinc-900 lg:bg-zinc-900 text-white flex items-center justify-between px-3 sticky top-0 z-10 lg:items-start lg:justify-center lg:px-0"
   >
-    <div
-      class="flex items-center flex-wrap gap-4 w-full h-full opacity-70 lg:hidden"
-    >
-      <a class="cursor-pointer h-full" href="#about">
-        <div
-          class="h-full w-14 flex items-center justify-center border-b-4 rounded-b-sm border-transparent transition ease-in-out hover:border-emerald-400"
-        >
-          About
-        </div>
-      </a>
-      <a class="cursor-pointer h-full" href="#experience">
-        <div
-          class="h-full w-14 flex items-center justify-center border-b-4 rounded-b-sm border-transparent transition ease-in-out hover:border-emerald-400"
-        >
-          Career
-        </div>
-      </a>
-      <a class="cursor-pointer h-full" href="#projects">
-        <div
-          class="h-full w-14 flex items-center justify-center border-b-4 rounded-b-sm border-transparent transition ease-in-out hover:border-emerald-400"
-        >
-          Projects
-        </div>
-      </a>
-    </div>
-    <a class="cursor-pointer h-full lg:hidden" href="#contact">
-      <div
-        class="h-full w-14 flex items-center justify-center border-b-4 rounded-b-sm border-transparent opacity-70 transition ease-in-out hover:border-emerald-400 lg:hidden"
+    <div class="flex items-center flex-wrap gap-4 w-full h-full lg:hidden">
+      <NuxtLink
+        class="h-full w-14 flex items-center justify-center border-b-4 rounded-b-sm border-transparent transition ease-in-out hover:border-emerald-400 cursor-pointer opacity-70"
+        :to="'/'"
+        >About</NuxtLink
       >
-        Contact
-      </div>
-    </a>
+      <NuxtLink
+        class="h-full w-14 flex items-center justify-center border-b-4 rounded-b-sm border-transparent transition ease-in-out hover:border-emerald-400 cursor-pointer opacity-70"
+        :to="'/career'"
+        >Career</NuxtLink
+      >
+      <NuxtLink
+        class="h-full w-14 flex items-center justify-center border-b-4 rounded-b-sm border-transparent transition ease-in-out hover:border-emerald-400 cursor-pointer opacity-70"
+        :to="'/projects'"
+        >Projects</NuxtLink
+      >
+    </div>
+    <NuxtLink
+      class="h-full w-14 flex items-center justify-center border-b-4 rounded-b-sm border-transparent transition ease-in-out hover:border-emerald-400 cursor-pointer opacity-70 lg:hidden"
+      :to="'/contact'"
+      >Contact</NuxtLink
+    >
     <div
       class="max-[1023px]:hidden sticky top-0 flex flex-col items-center justify-center w-full"
     >
-      <div class="py-10 w-full flex items-center justify-center bg-zinc-900">
-        <h1 class="text-2xl font-roboto-mono font-black">Caio Costa</h1>
+      <div
+        class="py-10 w-full flex flex-col items-center justify-center gap-5 bg-zinc-950"
+      >
+        <h1 class="text-2xl font-black">Caio Costa</h1>
+        <p class="opacity-70 font-semibold">Fullstack Developer</p>
       </div>
-      <ul class="flex flex-col items-center justify-start mt-14 w-full">
+      <ul class="flex flex-col items-center justify-start w-full">
         <li
           class="w-full flex justify-center border-solid border-y-2 border-zinc-800 py-5"
         >
-          <a class="transition ease-in-out hover:text-emerald-400" href="#about"
-            >About</a
+          <NuxtLink
+            class="transition ease-in-out hover:text-emerald-400"
+            :to="'/'"
+            >About</NuxtLink
           >
         </li>
         <li class="w-full flex justify-center py-5">
-          <a
+          <NuxtLink
             class="transition ease-in-out hover:text-emerald-400"
-            href="#experience"
-            >Career</a
+            :to="'/career'"
+            >Career</NuxtLink
           >
         </li>
         <li
           class="w-full flex justify-center border-solid border-t-2 border-zinc-800 py-5"
         >
-          <a
+          <NuxtLink
             class="transition ease-in-out hover:text-emerald-400"
-            href="#projects"
-            >Projects</a
+            :to="'/projects'"
+            >Projects</NuxtLink
           >
         </li>
         <li
           class="w-full flex justify-center border-solid border-y-2 border-zinc-800 py-5"
         >
-          <a
+          <NuxtLink
             class="transition ease-in-out hover:text-emerald-400"
-            href="#contact"
-            >Contacts</a
+            :to="'/contact'"
+            >Contact</NuxtLink
           >
         </li>
       </ul>
-      <div class="flex mt-4 justify-between w-full px-10">
-        <a
-          class="cursor-default"
-          href="https://github.com/abysswalkerCaio"
-          target="_blank"
-        >
-          <font-awesome-icon
-            class="cursor-pointer fa-fw text-2xl transition ease-in-out hover:text-emerald-400"
-            :icon="'fa-brands fa-github'"
-          />
-        </a>
-        <a
-          class="cursor-default"
-          href="https://www.linkedin.com/in/caio-costa-383a3b227/"
-          target="_blank"
-        >
-          <font-awesome-icon
-            class="cursor-pointer fa-fw text-2xl transition ease-in-out hover:text-emerald-400"
-            :icon="'fa-brands fa-linkedin'"
-          />
-        </a>
-      </div>
     </div>
   </nav>
 </template>
