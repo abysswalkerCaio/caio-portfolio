@@ -42,6 +42,11 @@
             <p
               class="border-solid border-2 border-emerald-400 w-fit p-2 rounded-2xl"
             >
+              TypeScript
+            </p>
+            <p
+              class="border-solid border-2 border-emerald-400 w-fit p-2 rounded-2xl"
+            >
               PHP
             </p>
             <p
