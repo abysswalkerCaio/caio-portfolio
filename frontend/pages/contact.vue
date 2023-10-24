@@ -51,7 +51,7 @@
         />
         <a
           class="text-xl sm:text-2xl lg:text-3xl opacity-70"
-          href="https://www.linkedin.com/in/caio-costa-383a3b227/"
+          href="https://www.linkedin.com/in/caio-costa-dev/"
           target="_blank"
           >LinkedIn</a
         >
