@@ -11,7 +11,7 @@
         <div
           class="anime-world flex flex-shrink-0 flex-col items-center gap-5 border-solid border-2 text-center font-roboto-mono border-emerald-400 rounded-xl w-[280px] h-[250px] min-[500px]:w-[450px] p-6"
         >
-          <button><p class="disabled:opacity-10">Coming soon...</p></button>
+          <span class="text-yellow-500">Coming soon...</span>
         </div>
         <div class="flex flex-col h-full w-full sm:w-3/4 md:w-2/4">
           <p
