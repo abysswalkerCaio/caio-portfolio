@@ -23,7 +23,9 @@
             List of different animes with their respective characters
             categorized by their factions.
           </p>
-          <div class="flex flex-wrap justify-center gap-2 mt-4 text-emerald-400">
+          <div
+            class="flex flex-wrap justify-center gap-2 mt-4 text-emerald-400"
+          >
             <p
               class="border-solid border-2 border-emerald-400 w-fit p-2 rounded-2xl"
             >
@@ -43,21 +45,6 @@
               class="border-solid border-2 border-emerald-400 w-fit p-2 rounded-2xl"
             >
               TypeScript
-            </p>
-            <p
-              class="border-solid border-2 border-emerald-400 w-fit p-2 rounded-2xl"
-            >
-              PHP
-            </p>
-            <p
-              class="border-solid border-2 border-emerald-400 w-fit p-2 rounded-2xl"
-            >
-              MySQL
-            </p>
-            <p
-              class="border-solid border-2 border-emerald-400 w-fit p-2 rounded-2xl"
-            >
-              Laravel
             </p>
             <p
               class="border-solid border-2 border-emerald-400 w-fit p-2 rounded-2xl"
