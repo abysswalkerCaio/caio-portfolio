@@ -8,20 +8,30 @@
       class="flex flex-col pt-20 pb-20 text-white break-words gap-5 h-full"
     >
       <div class="flex flex-col gap-5 items-center justify-center">
-        <div
-          class="anime-world flex flex-shrink-0 flex-col items-center gap-5 border-solid border-2 text-center font-roboto-mono border-emerald-400 rounded-xl w-[280px] h-[250px] min-[500px]:w-[450px] p-6"
-        >
-          <span class="text-yellow-500">Coming soon...</span>
-        </div>
-        <div class="flex flex-col h-full w-full sm:w-3/4 md:w-2/4">
+        <div class="flex flex-col items-center h-full w-fit-content">
+          <NuxtLink
+            class="flex justify-center"
+            to="https://anime-world-abysswalkercaio.vercel.app/"
+            target="_blank"
+          >
+            <span
+              class="absolute mt-4 text-blue-400 text-sm min-[450px]:text-lg"
+              >In development...</span
+            >
+            <img
+              class="object-scale-down w-full max-h-[350px] border-2 rounded-2xl border-emerald-400"
+              src="../img/anime-world-full.png"
+              alt="Anime World project banner"
+            />
+          </NuxtLink>
           <p
-            class="text-emerald-400 text-center text-xl font-roboto-mono font-bold"
+            class="text-emerald-400 mt-5 text-center text-xl font-roboto-mono font-bold"
           >
             Anime World
           </p>
           <p class="w-full mt-6 opacity-70 text-center">
-            List of different animes with their respective characters
-            categorized by their factions.
+            List of animes and all their related elements, using Nuxt.js with
+            Jikan - Unofficial MyAnimeList API.
           </p>
           <div
             class="flex flex-wrap justify-center gap-2 mt-4 text-emerald-400"
@@ -82,11 +92,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.anime-world {
-  background-image: url("../assets/images/anime-world-banner.png");
-  background-size: 100% 100%;
-  object-fit: scale-down;
-}
-</style>
