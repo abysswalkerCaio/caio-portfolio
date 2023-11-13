@@ -17,7 +17,7 @@
       >
         <font-awesome-icon :icon="'mobile-screen'" class="text-emerald-400" />
         <p class="text-xl sm:text-2xl lg:text-3xl opacity-70">
-          +55 13 97411 2148
+          +55 13 98176 4162
         </p>
       </div>
       <div
