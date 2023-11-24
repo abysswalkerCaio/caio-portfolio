@@ -15,8 +15,8 @@
             target="_blank"
           >
             <span
-              class="absolute mt-4 text-blue-400 text-sm min-[450px]:text-lg"
-              >In development...</span
+              class="absolute mt-4 text-green-400 text-sm min-[450px]:text-lg"
+              >Finished</span
             >
             <img
               class="object-scale-down w-full max-h-[350px] border-2 rounded-2xl border-emerald-400"
